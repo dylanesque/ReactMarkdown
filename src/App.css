@@ -11,10 +11,27 @@ html, body {
 h1, h2 {
   font-family: 'Ubuntu Mono', monospace;
   color: #000;
+  letter-spacing: 1.3px;
+}
+
+h2 {
+  letter-spacing: 1.1px;
+}
+
+texarea {
+  margin-bottom: 2rem;
 }
 
 .heading {
   background-color: #fff;
-  margin-top: 10rem;
+  margin-top: 5rem;
+  margin-bottom: 4rem;
   padding: .5rem;
+}
+
+#preview {
+  background-color: orangered;
+  width: 40rem;
+  height: 15rem;
+  margin: 2rem auto 0 auto;
 }
