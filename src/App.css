@@ -1,6 +1,6 @@
 html, body {
   box-sizing: border-box;
-  background-color: #1aa3ff;
+  background-color: #1086d4;
   color: #fff;
   margin: 0;
   padding: 0;
@@ -10,7 +10,7 @@ html, body {
 
 h1, h2 {
   font-family: 'Ubuntu Mono', monospace;
-  color: #000;
+  color: #01304e;
   letter-spacing: 1.3px;
 }
 
@@ -30,7 +30,8 @@ texarea {
 }
 
 #preview {
-  background-color: orangered;
+  background-color: #fff;
+  color: #01304e;
   width: 40rem;
   height: 15rem;
   margin: 2rem auto 0 auto;

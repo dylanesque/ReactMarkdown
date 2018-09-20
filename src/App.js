@@ -11,16 +11,10 @@ class App extends Component {
     }
 
     this.handleChange = this.handleChange.bind(this);
-    this.handleSubmit = this.handleSubmit.bind(this);
   }
 
   handleChange(event) {
     this.setState({value: event.target.value});
-  }
-
-  handleSubmit(event) {
-    alert('Text was submitted to be previewed ' + this.state.value);
-    event.preventDefault();
   }
 
   render() {
@@ -34,15 +28,13 @@ class App extends Component {
         <div>
       <h2>Enter some markdown to double-check your output!</h2>
 
-      <form onSubmit={ this.handleSubmit }>
+      <form>
       <textarea
         value={this.state.value}
         onChange={this.handleChange}
         id="editor"
         rows="10"
-        cols="80" />
-        <br/>
-        <input type="submit" value="Submit" />
+        cols="86" />
         </form>
       </div>
 
