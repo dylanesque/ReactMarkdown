@@ -45,4 +45,17 @@ class App extends Component {
   }
 }
 
+const placeholderText = `
+  # How It Works:
+  ## Enter some Markdown in this box, and see the output rendered below.
+
+  > Don't know what Markdown is? No problem! It's a templating language
+  > designed to quickly draft HTML! 
+
+  For a syntax refresher, visit https://guides.github.com/features/mastering-markdown/
+
+
+
+  `
+
 export default App;
