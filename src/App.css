@@ -19,7 +19,11 @@ h2 {
   margin-bottom: 2rem;
 }
 
-texarea {
+li {
+  text-align: left;
+}
+
+textarea {
   margin-bottom: 2rem;
 }
 
@@ -34,6 +38,6 @@ texarea {
   background-color: #fff;
   color: #01304e;
   width: 40rem;
-  height: 15rem;
+  height: 50rem;
   margin: 2rem auto 0 auto;
 }

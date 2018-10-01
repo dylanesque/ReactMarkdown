@@ -57,6 +57,25 @@ const placeholderText = `
 
   For a syntax refresher, visit https://guides.github.com/features/mastering-markdown/
 
+  Enter some code, indented inline \`\`\`const word = "Bananas";\`\`\`,
+
+    function foo() {
+      return 'Foo';
+    }
+  , to see that formatted as code.
+
+  1. List items
+  2. Just type them out
+  3. Like right here
+
+  You can use it to render images:
+  
+  ![alt-text](https://i.kym-cdn.com/entries/icons/original/000/018/012/this_is_fine.jpeg "This is Fine dog")
+
+  **Keep experimenting!**
+
+
+
 
 
   `
