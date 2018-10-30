@@ -5,6 +5,13 @@ import marked from 'marked';
 import './App.css';
 
 const renderer = new marked.Renderer();
+renderer.link = function (href, title, text) {
+  return `<a target="_blank" href="${href}">${text}` + '</a>';
+}
+
+marked.setOptions({
+  breaks: true,
+});
 
 class App extends Component {
   constructor(props) {
@@ -69,7 +76,7 @@ const placeholderText = `
   3. Like right here
 
   You can use it to render images:
-  
+
   ![alt-text](https://i.kym-cdn.com/entries/icons/original/000/018/012/this_is_fine.jpeg "This is Fine dog")
 
   **Keep experimenting!**
